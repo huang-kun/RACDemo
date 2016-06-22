@@ -1,0 +1,16 @@
+//
+//  RACDemo-Prefix.pch
+//  RACDemo
+//
+//  Created by Jack Huang on 16/6/22.
+//  Copyright © 2016年 huang-kun. All rights reserved.
+//
+
+#ifndef RACDemo_Prefix_pch
+#define RACDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <ReactiveCocoa/ReactiveCocoa.h>
+
+#endif /* RACDemo_Prefix_pch */

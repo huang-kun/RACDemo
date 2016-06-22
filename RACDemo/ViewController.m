@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) IBOutlet UITextField *usernameTextField;
 @end
 
 @implementation ViewController
