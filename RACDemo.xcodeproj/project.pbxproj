@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A20E6124F5F6D4AE42F19B /* Pods_RACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAE8864FF0D961D7670A00B /* Pods_RACDemo.framework */; };
 		32FA15421D1A85730056666B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA15411D1A85730056666B /* main.m */; };
 		32FA15451D1A85730056666B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA15441D1A85730056666B /* AppDelegate.m */; };
 		32FA15481D1A85730056666B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA15471D1A85730056666B /* ViewController.m */; };
@@ -51,6 +52,9 @@
 		32FA15611D1A85730056666B /* RACDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FA15651D1A85730056666B /* RACDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACDemoUITests.m; sourceTree = "<group>"; };
 		32FA15671D1A85730056666B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA03D046BC2632A135714A7 /* Pods-RACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.release.xcconfig"; sourceTree = "<group>"; };
+		503AF83527FD5EDFF977F2EB /* Pods-RACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5DAE8864FF0D961D7670A00B /* Pods_RACDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A20E6124F5F6D4AE42F19B /* Pods_RACDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				32FA15591D1A85730056666B /* RACDemoTests */,
 				32FA15641D1A85730056666B /* RACDemoUITests */,
 				32FA153E1D1A85730056666B /* Products */,
+				FF899B436982D2A405648386 /* Pods */,
+				47254D7BBA8FB0C790A48AF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,23 @@
 			path = RACDemoUITests;
 			sourceTree = "<group>";
 		};
+		47254D7BBA8FB0C790A48AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DAE8864FF0D961D7670A00B /* Pods_RACDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF899B436982D2A405648386 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503AF83527FD5EDFF977F2EB /* Pods-RACDemo.debug.xcconfig */,
+				4BA03D046BC2632A135714A7 /* Pods-RACDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FA156A1D1A85730056666B /* Build configuration list for PBXNativeTarget "RACDemo" */;
 			buildPhases = (
+				DACA22CA8E1DB189C9EA7EE2 /* [CP] Check Pods Manifest.lock */,
 				32FA15391D1A85730056666B /* Sources */,
 				32FA153A1D1A85730056666B /* Frameworks */,
 				32FA153B1D1A85730056666B /* Resources */,
+				7CC56E8191FEF2E4271524DC /* [CP] Embed Pods Frameworks */,
+				2D9894AC9E5A5CD23DF18A06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9894AC9E5A5CD23DF18A06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC56E8191FEF2E4271524DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACA22CA8E1DB189C9EA7EE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32FA15391D1A85730056666B /* Sources */ = {
@@ -413,9 +488,11 @@
 		};
 		32FA156B1D1A85730056666B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503AF83527FD5EDFF977F2EB /* Pods-RACDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RACDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huang-kun.RACDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +501,11 @@
 		};
 		32FA156C1D1A85730056666B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA03D046BC2632A135714A7 /* Pods-RACDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RACDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.huang-kun.RACDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +577,7 @@
 				32FA156C1D1A85730056666B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FA156D1D1A85730056666B /* Build configuration list for PBXNativeTarget "RACDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +586,7 @@
 				32FA156F1D1A85730056666B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FA15701D1A85730056666B /* Build configuration list for PBXNativeTarget "RACDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +595,7 @@
 				32FA15721D1A85730056666B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
