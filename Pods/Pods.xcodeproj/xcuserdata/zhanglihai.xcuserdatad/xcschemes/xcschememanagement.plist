@@ -19,20 +19,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YJSafeKVO.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08F500859EB4963598BBDB6B2FEAF0F4</key>
+		<key>27F571A02E81AE3A5ACD1D23B9043E31</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6ACC1C318E4736B7AED9642F1DDA5247</key>
+		<key>6B1243B8D4A5F79D254DE76D5E88C80A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BC412CA90CA5AFB10A0A41D9D8BD9216</key>
+		<key>9857B2D515624767331E0F2FCE9F2908</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9E2F3C637500C912E4822D00908C03A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

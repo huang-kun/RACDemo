@@ -10,12 +10,21 @@
 		01A20E6124F5F6D4AE42F19B /* Pods_RACDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAE8864FF0D961D7670A00B /* Pods_RACDemo.framework */; };
 		32FA15421D1A85730056666B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA15411D1A85730056666B /* main.m */; };
 		32FA15451D1A85730056666B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA15441D1A85730056666B /* AppDelegate.m */; };
-		32FA15481D1A85730056666B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA15471D1A85730056666B /* ViewController.m */; };
 		32FA154B1D1A85730056666B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA15491D1A85730056666B /* Main.storyboard */; };
 		32FA154D1D1A85730056666B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FA154C1D1A85730056666B /* Assets.xcassets */; };
 		32FA15501D1A85730056666B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA154E1D1A85730056666B /* LaunchScreen.storyboard */; };
 		32FA155B1D1A85730056666B /* RACDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA155A1D1A85730056666B /* RACDemoTests.m */; };
 		32FA15661D1A85730056666B /* RACDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FA15651D1A85730056666B /* RACDemoUITests.m */; };
+		72089E8F1D5EC0C1004D285F /* RWFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 72089E8E1D5EC0C1004D285F /* RWFetcher.m */; };
+		72089E921D5F2C59004D285F /* RWTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72089E911D5F2C59004D285F /* RWTweet.m */; };
+		72089E951D5F2CB5004D285F /* RWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72089E941D5F2CB5004D285F /* RWTableViewCell.m */; };
+		72089E971D5F2CEA004D285F /* RWTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72089E961D5F2CEA004D285F /* RWTableViewCell.xib */; };
+		7237AC971D67F5FA0070F7B4 /* UISearchBar+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7237AC961D67F5FA0070F7B4 /* UISearchBar+RACSignalSupport.m */; };
+		72AFF4561D5E0DDB00E13766 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AFF4511D5E0DDB00E13766 /* LoginViewController.m */; };
+		72AFF4571D5E0DDB00E13766 /* Validator.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AFF4531D5E0DDB00E13766 /* Validator.m */; };
+		72AFF4581D5E0DDB00E13766 /* FakeNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AFF4551D5E0DDB00E13766 /* FakeNetworkManager.m */; };
+		72AFF45B1D5E0FA200E13766 /* TextFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AFF45A1D5E0FA200E13766 /* TextFlowViewController.m */; };
+		72AFF45E1D5E127E00E13766 /* RWSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AFF45D1D5E127E00E13766 /* RWSearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +49,6 @@
 		32FA15411D1A85730056666B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32FA15431D1A85730056666B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32FA15441D1A85730056666B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		32FA15461D1A85730056666B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32FA15471D1A85730056666B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		32FA154A1D1A85730056666B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32FA154C1D1A85730056666B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32FA154F1D1A85730056666B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +63,25 @@
 		4BA03D046BC2632A135714A7 /* Pods-RACDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.release.xcconfig"; sourceTree = "<group>"; };
 		503AF83527FD5EDFF977F2EB /* Pods-RACDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACDemo/Pods-RACDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5DAE8864FF0D961D7670A00B /* Pods_RACDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72089E8D1D5EC0C1004D285F /* RWFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWFetcher.h; sourceTree = "<group>"; };
+		72089E8E1D5EC0C1004D285F /* RWFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWFetcher.m; sourceTree = "<group>"; };
+		72089E901D5F2C59004D285F /* RWTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTweet.h; sourceTree = "<group>"; };
+		72089E911D5F2C59004D285F /* RWTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTweet.m; sourceTree = "<group>"; };
+		72089E931D5F2CB5004D285F /* RWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTableViewCell.h; sourceTree = "<group>"; };
+		72089E941D5F2CB5004D285F /* RWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTableViewCell.m; sourceTree = "<group>"; };
+		72089E961D5F2CEA004D285F /* RWTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RWTableViewCell.xib; sourceTree = "<group>"; };
+		7237AC951D67F5FA0070F7B4 /* UISearchBar+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+RACSignalSupport.h"; sourceTree = "<group>"; };
+		7237AC961D67F5FA0070F7B4 /* UISearchBar+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+RACSignalSupport.m"; sourceTree = "<group>"; };
+		72AFF4501D5E0DDB00E13766 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		72AFF4511D5E0DDB00E13766 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		72AFF4521D5E0DDB00E13766 /* Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
+		72AFF4531D5E0DDB00E13766 /* Validator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validator.m; sourceTree = "<group>"; };
+		72AFF4541D5E0DDB00E13766 /* FakeNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeNetworkManager.h; sourceTree = "<group>"; };
+		72AFF4551D5E0DDB00E13766 /* FakeNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeNetworkManager.m; sourceTree = "<group>"; };
+		72AFF4591D5E0FA200E13766 /* TextFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFlowViewController.h; sourceTree = "<group>"; };
+		72AFF45A1D5E0FA200E13766 /* TextFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFlowViewController.m; sourceTree = "<group>"; };
+		72AFF45C1D5E127E00E13766 /* RWSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchViewController.h; sourceTree = "<group>"; };
+		72AFF45D1D5E127E00E13766 /* RWSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +113,7 @@
 		32FA15341D1A85730056666B = {
 			isa = PBXGroup;
 			children = (
+				7237AC921D67F5FA0070F7B4 /* RACNewSupports */,
 				32FA153F1D1A85730056666B /* RACDemo */,
 				32FA15591D1A85730056666B /* RACDemoTests */,
 				32FA15641D1A85730056666B /* RACDemoUITests */,
@@ -111,9 +138,8 @@
 			children = (
 				32FA15431D1A85730056666B /* AppDelegate.h */,
 				32FA15441D1A85730056666B /* AppDelegate.m */,
-				32FA15461D1A85730056666B /* ViewController.h */,
-				32FA15471D1A85730056666B /* ViewController.m */,
 				32FA15491D1A85730056666B /* Main.storyboard */,
+				72AFF44C1D5E0D9B00E13766 /* Demo */,
 				32FA154C1D1A85730056666B /* Assets.xcassets */,
 				32FA154E1D1A85730056666B /* LaunchScreen.storyboard */,
 				32FA15511D1A85730056666B /* Info.plist */,
@@ -155,6 +181,80 @@
 				5DAE8864FF0D961D7670A00B /* Pods_RACDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7237AC921D67F5FA0070F7B4 /* RACNewSupports */ = {
+			isa = PBXGroup;
+			children = (
+				7237AC931D67F5FA0070F7B4 /* Foundation */,
+				7237AC941D67F5FA0070F7B4 /* UIKit */,
+			);
+			name = RACNewSupports;
+			path = RACDemo/RACNewSupports;
+			sourceTree = "<group>";
+		};
+		7237AC931D67F5FA0070F7B4 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7237AC941D67F5FA0070F7B4 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7237AC951D67F5FA0070F7B4 /* UISearchBar+RACSignalSupport.h */,
+				7237AC961D67F5FA0070F7B4 /* UISearchBar+RACSignalSupport.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		72AFF44C1D5E0D9B00E13766 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				72AFF44D1D5E0D9B00E13766 /* SimpleTextFlow */,
+				72AFF44E1D5E0D9B00E13766 /* TwitterSearch */,
+				72AFF44F1D5E0D9B00E13766 /* UserLoginValidation */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		72AFF44D1D5E0D9B00E13766 /* SimpleTextFlow */ = {
+			isa = PBXGroup;
+			children = (
+				72AFF4591D5E0FA200E13766 /* TextFlowViewController.h */,
+				72AFF45A1D5E0FA200E13766 /* TextFlowViewController.m */,
+			);
+			path = SimpleTextFlow;
+			sourceTree = "<group>";
+		};
+		72AFF44E1D5E0D9B00E13766 /* TwitterSearch */ = {
+			isa = PBXGroup;
+			children = (
+				72AFF45C1D5E127E00E13766 /* RWSearchViewController.h */,
+				72AFF45D1D5E127E00E13766 /* RWSearchViewController.m */,
+				72089E8D1D5EC0C1004D285F /* RWFetcher.h */,
+				72089E8E1D5EC0C1004D285F /* RWFetcher.m */,
+				72089E931D5F2CB5004D285F /* RWTableViewCell.h */,
+				72089E941D5F2CB5004D285F /* RWTableViewCell.m */,
+				72089E961D5F2CEA004D285F /* RWTableViewCell.xib */,
+				72089E901D5F2C59004D285F /* RWTweet.h */,
+				72089E911D5F2C59004D285F /* RWTweet.m */,
+			);
+			path = TwitterSearch;
+			sourceTree = "<group>";
+		};
+		72AFF44F1D5E0D9B00E13766 /* UserLoginValidation */ = {
+			isa = PBXGroup;
+			children = (
+				72AFF4501D5E0DDB00E13766 /* LoginViewController.h */,
+				72AFF4511D5E0DDB00E13766 /* LoginViewController.m */,
+				72AFF4521D5E0DDB00E13766 /* Validator.h */,
+				72AFF4531D5E0DDB00E13766 /* Validator.m */,
+				72AFF4541D5E0DDB00E13766 /* FakeNetworkManager.h */,
+				72AFF4551D5E0DDB00E13766 /* FakeNetworkManager.m */,
+			);
+			path = UserLoginValidation;
 			sourceTree = "<group>";
 		};
 		FF899B436982D2A405648386 /* Pods */ = {
@@ -272,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72089E971D5F2CEA004D285F /* RWTableViewCell.xib in Resources */,
 				32FA15501D1A85730056666B /* LaunchScreen.storyboard in Resources */,
 				32FA154D1D1A85730056666B /* Assets.xcassets in Resources */,
 				32FA154B1D1A85730056666B /* Main.storyboard in Resources */,
@@ -347,9 +448,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FA15481D1A85730056666B /* ViewController.m in Sources */,
+				72AFF4571D5E0DDB00E13766 /* Validator.m in Sources */,
+				72089E921D5F2C59004D285F /* RWTweet.m in Sources */,
+				72AFF45B1D5E0FA200E13766 /* TextFlowViewController.m in Sources */,
+				72089E951D5F2CB5004D285F /* RWTableViewCell.m in Sources */,
+				72AFF4581D5E0DDB00E13766 /* FakeNetworkManager.m in Sources */,
+				72AFF4561D5E0DDB00E13766 /* LoginViewController.m in Sources */,
+				7237AC971D67F5FA0070F7B4 /* UISearchBar+RACSignalSupport.m in Sources */,
 				32FA15451D1A85730056666B /* AppDelegate.m in Sources */,
 				32FA15421D1A85730056666B /* main.m in Sources */,
+				72089E8F1D5EC0C1004D285F /* RWFetcher.m in Sources */,
+				72AFF45E1D5E127E00E13766 /* RWSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -480,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,6 +602,7 @@
 			baseConfigurationReference = 503AF83527FD5EDFF977F2EB /* Pods-RACDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				GCC_PREFIX_HEADER = "RACDemo/RACDemo-Prefix.pch";
 				INFOPLIST_FILE = RACDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -507,6 +617,7 @@
 			baseConfigurationReference = 4BA03D046BC2632A135714A7 /* Pods-RACDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				GCC_PREFIX_HEADER = "RACDemo/RACDemo-Prefix.pch";
 				INFOPLIST_FILE = RACDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

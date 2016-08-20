@@ -3,6 +3,6 @@ use_frameworks!
 
 target "RACDemo" do
 
-  pod 'ReactiveCocoa'
+  pod 'ReactiveCocoa', '2.5'
 
 end
